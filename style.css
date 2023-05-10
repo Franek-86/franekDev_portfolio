@@ -549,7 +549,7 @@ img {
       "a b b"
       "a c d"
       "e e e";
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 300px;
     gap: 1rem;
   }
   .area-1 {
