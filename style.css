@@ -544,10 +544,12 @@ img {
   }
 
   .latest-works-center {
+    /* padding-bottom: 5rem; */
     grid-template-areas:
       "a b b"
-      "a c d";
-    grid-template-rows: 200px 200px;
+      "a c d"
+      "e e e";
+    grid-template-rows: 200px 200px 200px;
     gap: 1rem;
   }
   .area-1 {
@@ -561,6 +563,9 @@ img {
   }
   .area-4 {
     grid-area: d;
+  }
+  .area-5 {
+    grid-area: e;
   }
 }
 .area {
