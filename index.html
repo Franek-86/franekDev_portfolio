@@ -21,6 +21,7 @@
       <div class="nav-center">
         <div class="nav-header">
           <div class="nav-logo">
+            <!-- <img src="./images/navLogo2.png" alt="" style="width: 8rem;"> -->
             <h2>franek<span class="temporary"><span class="capitalize">d</span>ev</span></h2>
           </div>
           <div class="nav-btn">
@@ -29,17 +30,22 @@
         </div>
         <ul class="nav-links">
           <li class="nav-link">
-            <a href="./index.html">home</a>
+            <a class="navHome" href="./index.html">home</a>
           </li>
           <li class="nav-link">
-            <a href="./about.html">about</a>
+            <a class="navAbout" href="./about.html">about</a>
           </li>
           <li class="nav-link">
-            <a href="./projects.html">projects</a>
+            <a class="navProjects" href="./projects.html">projects</a>
           </li>
           <li class="nav-link">
-            <a href="./contact.html">contact</a>
+            <a class="navContact" href="./contact.html">contact</a>
           </li>
+          <div class="langWrap">
+            <a href="#" language="english" class="active">EN</a>
+            <a href="#" language="italian">ITA</a>
+            <!-- <a href="#" language="japanese">あ</a> -->
+          </div>
         </ul>
       </div>
     </nav>
@@ -53,16 +59,16 @@
         </div>
         <ul class="sidebar-links">
           <li class="sidebar-link">
-            <a href="./index.html">home</a>
+            <a class="sidebarHome" href="./index.html">home</a>
           </li>
           <li class="sidebar-link">
-            <a href="./about.html">about</a>
+            <a class="sidebarAbout" href="./about.html">about</a>
           </li>
           <li class="sidebar-link">
-            <a href="./projects.html">projects</a>
+            <a class="sidebarProjects" href="./projects.html">projects</a>
           </li>
           <li class="sidebar-link">
-            <a href="./contact.html">contact</a>
+            <a class="sidebarContact" href="./contact.html">contact</a>
           </li>
         </ul>
         <ul class="sidebar-icons">
@@ -80,15 +86,25 @@
     </aside>
 
     <!--------------------------end of sidebar----------------------->
-    <!--------------------------header----------------------->
 
+
+
+
+  <!-- test -->
+
+
+
+
+
+
+    <!--------------------------header----------------------->
     <header class="header">
       <div class="banner">
         <article class="banner-info">
           <div class="underline"></div>
-          <h1>I'm Franek</h1>
-          <p>Freelance Web Developer</p>
-          <button class="btn" onclick="location.href='contact.html'">hire me</button>
+          <h1 class="bannerTitle">I'm Franek</h1>
+          <p class="bannerDescription">Freelance Web Developer</p>
+          <button class="btn bannerBtn" onclick="location.href='contact.html'">hire me</button>
           <ul class="sidebar-icons banner-icons">
             <li class="sidebar-icon">
               <a href="https://www.facebook.com//FranekDev" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -101,7 +117,7 @@
             </li>
           </ul>
         </article>
-        <article class="banner-image" style="border: 0.25rem solid #22c55e; border-radius: 0.5rem;">
+        <article class="banner-image" style="border: 0.25rem solid #22c55e; border-radius:  0.5rem;">
           <img src="./images/franekLogo.png" alt="" class="banner-pic" />
         </article>
       </div>
@@ -112,16 +128,16 @@
           <img src="./images/green3.jpg" alt="" class="about-pic" />
         </article>
         <article class="about-info">
-          <h2>about</h2>
+          <h2 class="aboutTitle">about</h2>
           <div class="underline"></div>
-          <p>
+          <p  class="aboutDescription1">
 Hi all! I am Francesco Leccese but you can call me Franek. I am a <i>Front-End Developer</i>  based in Italy with <i>Marketing and Communication</i> studies and six years of experience providing IT services for customers geographically dispersed all over the world and one year of experience in web development. 
 
           </p>
-          <p>
+          <p class="aboutDescription2">
 In have a passion for technology and visual arts, especially photography and design.
           </p>
-          <button class="btn" onclick="location.href='about.html'">about me</button>
+          <button class="btn aboutMeBtn" onclick="location.href='about.html'">about me</button>
         </article>
       </div>
     </div>
@@ -138,7 +154,7 @@ In have a passion for technology and visual arts, especially photography and des
               <h4>web development</h4>
               <div class="underline"></div>
             </div>
-            <p class="service-text">
+            <p class="service-text webDevelopmentText">
  Create, build, and maintain your websites and web applications.
             </p>
           </article>
@@ -151,7 +167,7 @@ In have a passion for technology and visual arts, especially photography and des
               <div class="underline"></div>
             </div>
             
-            <p class="service-text">
+            <p class="service-text webDesignText">
  Focus on aesthetic factors like layout, user interface and other visual imagery in order to make your website more visually appealing and easy to use.
             </p>
           </article>
@@ -162,7 +178,7 @@ In have a passion for technology and visual arts, especially photography and des
               <h4>app design</h4>
               <div class="underline"></div>
             </div>
-            <p class="service-text">
+            <p class="service-text appDesignText">
 Deep care of the overall style of your app combined with the focus on the actual functionality and usability of your application.
 
             </p>
@@ -172,9 +188,9 @@ Deep care of the overall style of your app combined with the focus on the actual
     </section>
     <section class="section latest-works section-center">
       <div class="section-title">
-        <h2>latest works</h2>
+        <h2 class="latestWorksTitle">latest works</h2>
         <div class="underline"></div>
-        <p class="latest-works-text"> Here below you can find some of my latest works and many more are stored in my <a class="cc" href="./projects.html">projects page</a>.</p>
+        <p class="latest-works-text "> <span class="latestWorksText">Here below you can find some of my latest works and many more are stored in my </span><a class="cc projectPage" href="./projects.html">projects page</a>.</p>
       </div>
       <div class=" latest-works-center">
               <a href="https://www.mariamartinelli.it/immagini/blues-tarot-website/index.html" target="_blank" class="area area-1">
@@ -192,44 +208,44 @@ Deep care of the overall style of your app combined with the focus on the actual
         </article>
         </a>
 
-        <a href="https://jumbo-clubs.netlify.app" target="_blank" class="area area-2">
+        <a href="https://fmastrorocco.developing.it/" target="_blank" class="area area-2">
         <article class="single-work">
           <div class="single-work-img">
-           <img src="./images/pic1.jpg" alt="" class="single-work-pic">
+           <img src="./images/tecnocupole.jpg" alt="" class="single-work-pic">
           </div>
           <div class="single-work-info">
              <div class="info-content">
-           <h4>Jumbo Clubs</h4>
+           <h4>Tecnocupole Pancaldi</h4>
 
 </p>
            </div>
           </div>
         </article>
 
-                 <a href="https://cocktails-set.netlify.app" target="_blank" class="area area-3">
+                 <a href="https://lelesanto.developing.it/" target="_blank" class="area area-3">
         <article class="single-work">
           <div class="single-work-img">
-           <img src="./images/pic4.jpg" alt="" class="single-work-pic">
+           <img src="./images/maffei.jpg" alt="" class="single-work-pic">
           </div>
           <div class="single-work-info">
             <div class="single-work-text">
                    <div class="info-content">
-              <h4>cocktails set</h4>
+              <h4>Studi Dentistici Maffei</h4>
                    </div>
            </div>
           </div>
         </article>
         </a>
 
-         <a href="https://jumbo-colombian-tea.netlify.app" target="_blank" class="area area-4">
+         <a href="https://www.ernestverner.it/" target="_blank" class="area area-4">
         <article class="single-work">
           <div class="single-work-img">
-           <img src="./images/pictea.jpg" alt="" class="single-work-pic">
+           <img src="./images/verner.jpg" alt="" class="single-work-pic">
           </div>
           <div class="single-work-info">
             <div class="single-work-text">
                    <div class="info-content">
-              <h4>Jumbo Tea</h4>
+              <h4>Ernest Verner</h4>
                    </div>
            </div>
           </div>
@@ -264,20 +280,6 @@ Deep care of the overall style of your app combined with the focus on the actual
           </div>
         </article>
         </a>
-                         <!-- <a href="https://cocktails-table.netlify.app" target="_blank" class="area area-6">
-        <article class="single-work">
-          <div class="single-work-img">
-           <img src="./images/cocktail-table.jpg" alt="" class="single-work-pic">
-          </div>
-          <div class="single-work-info">
-            <div class="single-work-text">
-                   <div class="info-content">
-              <h4>cocktail table</h4>
-                   </div>
-           </div>
-          </div>
-        </article>
-        </a> -->
       </div>
     </section>
     <section class="section contact-section">
@@ -288,12 +290,12 @@ Deep care of the overall style of your app combined with the focus on the actual
 <div class="contact-info-banner">
   <div class="contact-info">
     <div class="section-title">
-      <h2>let's get in touch</h2>
+      <h2 class="touchTitle">let's get in touch</h2>
       <div class="underline"></div>
     </div>
-    <p>
+    <p class="touchText">
   Want to work together or have any questions? I look forward to here from you.</p>
-    <button class="btn" onclick="location.href='contact.html'">contact me</button>
+    <button class="btn touchBtn" onclick="location.href='contact.html'">contact me</button>
   </div>
 
 </div>
@@ -356,7 +358,7 @@ handling company’s high severity impact incidents.
       </div>
     </footer>
   </body>
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </html>
 
 

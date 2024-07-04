@@ -43,17 +43,24 @@
         </div>
         <ul class="nav-links">
           <li class="nav-link">
-            <a href="./index.html">home</a>
+            <a class="navHome" href="./index.html">home</a>
           </li>
           <li class="nav-link">
-            <a href="./about.html">about</a>
+            <a class="navAbout" href="./about.html">about</a>
           </li>
           <li class="nav-link">
-            <a href="./projects.html">projects</a>
+            <a class="navProjects" href="./projects.html">projects</a>
           </li>
           <li class="nav-link">
-            <a href="./contact.html">contact</a>
+            <a class="navContact" href="./contact.html">contact</a>
           </li>
+          <!-- test -->
+
+          <div class="langWrap">
+            <a href="#" language="english" class="active">EN</a>
+            <a href="#" language="italian">ITA</a>
+            <!-- <a href="#" language="japanese">あ</a> -->
+          </div>
         </ul>
       </div>
     </nav>
@@ -67,16 +74,16 @@
         </div>
         <ul class="sidebar-links">
           <li class="sidebar-link">
-            <a href="./index.html">home</a>
+            <a class="sidebarHome" href="./index.html">home</a>
           </li>
           <li class="sidebar-link">
-            <a href="./about.html">about</a>
+            <a class="sidebarAbout" href="./about.html">about</a>
           </li>
           <li class="sidebar-link">
-            <a href="./projects.html">projects</a>
+            <a class="sidebarProjects" href="./projects.html">projects</a>
           </li>
           <li class="sidebar-link">
-            <a href="./contact.html">contact</a>
+            <a class="sidebarContact" href="./contact.html">contact</a>
           </li>
         </ul>
         <ul class="sidebar-icons">
@@ -94,20 +101,24 @@
     </aside>
 
     <!--------------------------end of sidebar----------------------->
+
     <!--------------------------header----------------------->
 
     <header class="page-header section">
       <div class="section-title">
-        <h1>about me</h1>
+        <h1 class="singleAboutTitle">about me</h1>
         <div class="underline"></div>
       </div>
       <div class="section-center">
         <p class="page-text">
-          Hello, I am Francesco Leccese and I am a Front-End developer. I live
-          and work between Italy and Poland. I spend most of my day
-          experimenting with HTML, CSS, JavaScript and its React and Vue frameworks. I
-          enjoy coding and the challenge of learning something new everyday. You
-          can also find me on Linkedin
+          <span class="singleAboutText">
+            Hello, I am Francesco Leccese and I am a Front-End developer. I live
+            and work between Italy and Poland. I spend most of my day
+            experimenting with HTML, CSS, JavaScript and its React and Vue
+            frameworks. I enjoy coding and the challenge of learning something
+            new everyday. You can also find me on Linkedin</span
+          >
+
           <a
             class="page-link"
             href="https://www.linkedin.com/in/franekdev"
@@ -141,5 +152,5 @@
       </div>
     </footer>
   </body>
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </html>
