@@ -50,8 +50,8 @@ export const data = {
     sidebarAbout: "Su di me",
     sidebarContact: "Contatti",
     sidebarProjects: "Progetti",
-    bannerTitle: "Sono Franek",
-    bannerDescription: "Programmatore Front-End Freelance",
+    bannerTitle: "I'm Franek",
+    bannerDescription: "Freelance Web Developer",
     bannerBtn: "ASSUMIMI",
     aboutTitle: "su di me",
     aboutDescription1:
