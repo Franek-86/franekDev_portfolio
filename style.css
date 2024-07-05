@@ -156,6 +156,10 @@ img {
 /* --------------- */
 /* nav */
 /* -------------- */
+
+.nav-logo h2 {
+  margin-bottom: 0;
+}
 .nav-links {
   display: none;
 }
@@ -428,6 +432,14 @@ img {
   .about-info {
     align-self: center;
   }
+}
+
+.cv-container {
+  margin: 1rem 0;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
 }
 
 /* --------------- */
@@ -955,6 +967,11 @@ img {
 .page-text {
   max-width: 45rem;
   margin: 0 auto;
+}
+.page-about-text {
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-link {
