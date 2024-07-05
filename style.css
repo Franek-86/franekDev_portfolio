@@ -167,7 +167,7 @@ img {
   letter-spacing: var(--spacing);
 }
 .nav-center {
-  width: 100%;
+  width: 100vw;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -181,7 +181,7 @@ img {
 
 .fixed-nav {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 5rem;
   background-color: var(--clr-white);
   z-index: 3;
@@ -254,11 +254,6 @@ img {
   .langWrap a {
     padding: 0 15px;
   }
-  /* .nav-center {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-  } */
 }
 
 /* --------------- */
@@ -269,8 +264,8 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: var(--clr-gray-2);
   z-index: 2;
   transform: translateX(-10000px);
@@ -668,7 +663,7 @@ img {
 .contact-info-banner {
   position: relative;
   z-index: 3;
-  width: 30rem;
+  max-width: 30rem;
   background-color: var(--clr-primary-3);
   padding: 2rem 2rem 9rem 2rem;
   margin: 0 auto;
