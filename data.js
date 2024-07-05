@@ -32,8 +32,9 @@ export const data = {
       "Want to work together or have any questions? I look forward to here from you.",
     touchBtn: "CONTACT ME",
     singleAboutTitle: "about me",
-    singleAboutText:
+    singleAboutText1:
       "Hello, I am Francesco Leccese and I am a Front-End developer. I live and work between Italy and Poland. I spend most of my day experimenting with HTML, CSS, JavaScript and its React and Vue frameworks. I enjoy coding and the challenge of learning something new everyday. You can also find me on Linkedin",
+    singleAboutText2: "Here below you can find and download my curriculum.",
     singleContactTitle: "contact",
     singleContactText1:
       "   If you are looking to get ahold of me, you can send me an email at",
@@ -74,8 +75,10 @@ export const data = {
       "Vuoi lavorare con me ho hai qualche domanda ? Non vedo l'ora di adscoltarti.",
     touchBtn: "CONTATTAMI",
     singleAboutTitle: "su di me",
-    singleAboutText:
+    singleAboutText1:
       "Ciao, sono Francesco Leccese e sono uno sviluppatore Front-End. Vivo e lavoro tra Italia e Polonia. Trascorro gran parte della mia giornata sperimentando HTML, CSS, JavaScript e i suoi framework React e Vue. Mi piace programmare e la sfida di imparare qualcosa di nuovo ogni giorno. Mi trovi anche su Linkedin",
+    singleAboutText2:
+      "Qui di seguito potete trovare e scaricare il mio curriculum.",
     singleContactTitle: "contatti",
     singleContactText1:
       "Se vuoi contattarmi contattarmi, puoi inviarmi un'e-mail a",

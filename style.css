@@ -153,6 +153,44 @@ img {
   height: 100%;
   object-fit: cover;
 }
+.singleProjectsTitle {
+  text-transform: lowercase;
+}
+.singleProjectsTitle::first-letter {
+  text-transform: uppercase;
+}
+.singleAboutTitle {
+  text-transform: lowercase;
+}
+.singleAboutTitle::first-letter {
+  text-transform: uppercase;
+}
+.aboutTitle {
+  text-transform: lowercase;
+}
+.aboutTitle::first-letter {
+  text-transform: uppercase;
+}
+.latestWorksTitle {
+  text-transform: lowercase;
+}
+.latestWorksTitle::first-letter {
+  text-transform: uppercase;
+}
+.touchTitle {
+  text-transform: lowercase;
+}
+.touchTitle::first-letter {
+  text-transform: uppercase;
+}
+.navAbout::first-letter {
+  text-transform: uppercase !important;
+}
+.navAbout {
+  display: inline-block;
+  text-transform: lowercase !important;
+}
+
 /* --------------- */
 /* nav */
 /* -------------- */
@@ -436,10 +474,24 @@ img {
 
 .cv-container {
   margin: 1rem 0;
-  border: 2px solid red;
+  background-color: var(--clr-gray-6);
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0.5rem;
+  padding: 1rem;
+  color: var(--clr-primary-5);
+  font-weight: bold;
+}
+.cv-container a,
+.cv-container span {
+  color: var(--clr-primary-5);
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.cv-container i {
+  font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
 /* --------------- */
@@ -972,8 +1024,13 @@ img {
   max-width: 45rem;
   margin-left: auto;
   margin-right: auto;
+  /* display: flex;
+  align-items: center; */
 }
-
+.download-area {
+  display: flex;
+  align-items: center;
+}
 .page-link {
   text-transform: uppercase;
   color: var(--clr-primary-6);

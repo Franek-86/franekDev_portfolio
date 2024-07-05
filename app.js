@@ -49,7 +49,8 @@ const sidebarProjects = document.querySelector(".sidebarProjects");
 const projectPage = document.querySelector(".projectPage");
 const aboutMeBtn = document.querySelector(".aboutMeBtn");
 const singleAboutTitle = document.querySelector(".singleAboutTitle");
-const singleAboutText = document.querySelector(".singleAboutText");
+const singleAboutText1 = document.querySelector(".singleAboutText1");
+const singleAboutText2 = document.querySelector(".singleAboutText2");
 const singleContactTitle = document.querySelector(".singleContactTitle");
 const singleContactText1 = document.querySelector(".singleContactText1");
 const singleContactText2 = document.querySelector(".singleContactText2");
@@ -131,8 +132,11 @@ const translate = (attr) => {
   if (singleAboutTitle) {
     singleAboutTitle.textContent = data[attr].singleAboutTitle;
   }
-  if (singleAboutText) {
-    singleAboutText.textContent = data[attr].singleAboutText;
+  if (singleAboutText1) {
+    singleAboutText1.textContent = data[attr].singleAboutText1;
+  }
+  if (singleAboutText2) {
+    singleAboutText2.textContent = data[attr].singleAboutText2;
   }
   if (singleContactTitle) {
     singleContactTitle.textContent = data[attr].singleContactTitle;
