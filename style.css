@@ -183,12 +183,20 @@ img {
 .touchTitle::first-letter {
   text-transform: uppercase;
 }
-.navAbout::first-letter {
-  text-transform: uppercase !important;
-}
 .navAbout {
-  display: inline-block;
+  display: inline-block !important;
   text-transform: lowercase !important;
+}
+.navAbout::first-letter {
+  text-transform: capitalize !important;
+}
+.sidebarAbout {
+  display: inline-block !important;
+  text-transform: lowercase !important;
+}
+
+.sidebarAbout::first-letter {
+  text-transform: uppercase !important;
 }
 
 /* --------------- */
