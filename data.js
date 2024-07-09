@@ -33,7 +33,7 @@ export const data = {
     touchBtn: "CONTACT ME",
     singleAboutTitle: "about me",
     singleAboutText1:
-      "Hello, I am Francesco Leccese and I am a Front-End developer. I live and work between Italy and Poland. I spend most of my day experimenting with HTML, CSS, JavaScript and its React and Vue frameworks. I enjoy coding and the challenge of learning something new everyday. You can also find me on Linkedin",
+      "Doctor in Marketing and Business Communication and Front End Developer with a six years career in an ICT company and two years of programming experience. I have completed my Bachelor’s Degree in Marketing and Business Communication at “Università degli Studi di Bari” (Faculty of Economics and Commerce) and attended 1000+ hours coding bootcamp to learn new markup and programming languages while sharpening existing skills. I started my career in an ICT company as first line IT consultant, progressed it as second line assistant and product support engineer for reaching eventually the position of IT Team Manager. I am currently working as a freelance front-end developer and would like to apply my knowledge and passion for IT and coding to a talented engineering team. I have a passion for IT and web developing and professional growth.",
     singleAboutText2: "Here below you can find and download my curriculum.",
     singleContactTitle: "contact",
     singleContactText1:
@@ -76,7 +76,7 @@ export const data = {
     touchBtn: "CONTATTAMI",
     singleAboutTitle: "su di me",
     singleAboutText1:
-      "Ciao, sono Francesco Leccese e sono uno sviluppatore Front-End. Vivo e lavoro tra Italia e Polonia. Trascorro gran parte della mia giornata sperimentando HTML, CSS, JavaScript e i suoi framework React e Vue. Mi piace programmare e la sfida di imparare qualcosa di nuovo ogni giorno. Mi trovi anche su Linkedin",
+      "Sviluppatore Front End e Dottore in Marketing e Comunicazione d'Impresa con sei anni di esperienza lavorativa in un'azienda ICT e due anni di esperienza nella programmazione informatica. Ho conseguito la  laurea in Marketing e Comunicazione presso l'Università degli Studi di Bari (Facoltà di Economia Commerce) e ho atteso oltre 1000 ore di corsi bootcamp sulla codifica al fine di apprendere nuovi linguaggi di markup e di programmazione affinando al contempo le competenze esistenti. Ho iniziato la mia carriera in una azienda ICT come assistente informatico di prima linea per poi proseguire come assistente informatico di seconda linea e product support engineer fino a diventare IT team manager. Al momento lavoro come sviluppatore front end e mi piacerebbe mettere in pratica la mia conoscenza e la mia passione per l’IT e per il coding in un team di esperti programmatori.Ho una passione per l’informatica, per lo sviluppo web  e per la crescita professionale. ",
     singleAboutText2:
       "Qui di seguito potete trovare e scaricare il mio curriculum.",
     singleContactTitle: "contatti",

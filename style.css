@@ -1023,6 +1023,9 @@ img {
   background-color: var(--clr-primary-2);
   height: calc(100vh - 16rem);
 }
+.page-header-about {
+  height: auto;
+}
 
 .page-text {
   max-width: 45rem;
