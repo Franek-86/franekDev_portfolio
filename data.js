@@ -13,7 +13,9 @@ export const data = {
     bannerBtn: "HIRE ME",
     aboutTitle: "About",
     aboutDescription1:
-      " Hi all! I am Francesco Leccese but you can call me Franek. I am a Front-End Developer based in Italy with Marketing and Communication studies and six years of experience providing IT services for customers geographically dispersed all over the world and one year of experience in web development.",
+      "Ciao a tutti! Mi chiamo Francesco Leccese ma potete chiamarmi Franek. Sono uno sviluppatore front-end con studi in Marketing e Comunicazione d'impresa, sei anni di esperienza nella fornitura di servizi IT per le imprese e due anni di esperienza nello sviluppo web.",
+    aboutDescription1:
+      " Hi all! I am Francesco Leccese but you can call me Franek. I am a front-end developer with Marketing and Communication studies, six years of experience providing IT services for businesses and two years of experience in web development.",
     aboutDescription2:
       " In have a passion for technology and visual arts, especially photography and design.",
     aboutMeBtn: "ABOUT ME",
@@ -25,7 +27,7 @@ export const data = {
       "Deep care of the overall style of your app combined with the focus on the actual functionality and usability of your application.",
     latestWorksTitle: "Latest Works",
     latestWorksText:
-      "Here below you can find some of my latest works and many more are stored in my ",
+      "Here below you can find some of my latest works, the full list is available in my ",
     projectPage: "projects page",
     touchTitle: "let's get in touch",
     touchText:
@@ -53,10 +55,10 @@ export const data = {
     sidebarProjects: "Progetti",
     bannerTitle: "I'm Franek",
     bannerDescription: "Freelance Web Developer",
-    bannerBtn: "ASSUMIMI",
+    bannerBtn: "LAVORIAMO INSIEME",
     aboutTitle: "su di me",
     aboutDescription1:
-      "Ciao a tutti! Sono Francesco Leccese ma potete chiamarmi Franek. Sono uno sviluppatore front-end con sede in Italia con studi di marketing e comunicazione e sei anni di esperienza nella fornitura di servizi IT per clienti geograficamente dispersi in tutto il mondo e un anno di esperienza nello sviluppo web.Ho una passione per la tecnologia e le arti visive, in particolare la fotografia e il design.",
+      "Ciao a tutti! Mi chiamo Francesco Leccese ma potete chiamarmi Franek. Sono uno sviluppatore front-end con studi in marketing e comunicazione d'impresa, sei anni di esperienza nella fornitura di servizi IT per le imprese e due anni di esperienza nello sviluppo web.",
     aboutDescription2:
       "Ho una passione per la tecnologia e le arti visive, in particolare la fotografia e il design.",
     aboutMeBtn: "SU DI ME",
@@ -68,7 +70,7 @@ export const data = {
       "Cura profonda dello stile generale della tua applicazione e allo stesso tempo attenzione alla sua funzionalità ed usabilità.",
     latestWorksTitle: "Ultimi Lavori",
     latestWorksText:
-      "Qui sotto puoi trovare alcuni dei miei ultimi lavori e molti altri sono archiviati nella  mia ",
+      "Qui sotto puoi trovare alcuni dei miei ultimi lavori, la lista completa è visionabile nella ",
     projectPage: "pagina progetti",
     touchTitle: "Mettiamoci in contatto",
     touchText:
