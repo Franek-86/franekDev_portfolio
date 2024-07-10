@@ -35,7 +35,7 @@ export const data = {
     touchBtn: "CONTACT ME",
     singleAboutTitle: "about me",
     singleAboutText1:
-      "Doctor in Marketing and Business Communication and Front End Developer with a six years career in an ICT company and two years of programming experience. I have completed my Bachelor’s Degree in Marketing and Business Communication at “Università degli Studi di Bari” (Faculty of Economics and Commerce) and attended 1000+ hours coding bootcamp to learn new markup and programming languages while sharpening existing skills. I started my career in an ICT company as first line IT consultant, progressed it as second line assistant and product support engineer for reaching eventually the position of IT Team Manager. I am currently working as a freelance front-end developer and would like to apply my knowledge and passion for IT and coding to a talented engineering team. I have a passion for IT and web developing and professional growth.",
+      "Doctor in Marketing and Business Communication and Front End Developer with a six years career in an ICT company and two years of programming experience. I have completed my Bachelor’s Degree in Marketing and Business Communication at “Università degli Studi di Bari” (Faculty of Economics and Commerce) and attended 1000+ hours coding bootcamp to learn new markup and programming languages while sharpening existing skills. <br>I started my career in an ICT company as first line IT consultant, progressed it as second line assistant and product support engineer for reaching eventually the position of IT Team Manager.<br> I am currently working as a freelance front-end developer and would like to apply my knowledge and passion for IT and coding to a talented engineering team. I have a passion for IT and web developing and professional growth.",
     singleAboutText2: "Here below you can find and download my curriculum.",
     singleContactTitle: "contact",
     singleContactText1:
@@ -49,6 +49,10 @@ export const data = {
       "Analyze and resolve customer concerns and problems, diagnose the root cause, and document interactions. Provide on-call and ongoing second line troubleshooting, technical, and hardware advice and suggestions. Support remote and local upgrades, installations, and maintenance.",
     singleTimeline5:
       "Providing first line IT support to users located worldwide and handling company’s high severity impact incidents.",
+    singleTimeline01:
+      "Build, create and maintain full responsive web app or websites. More information about the technologies used for building each of the websites are available in my",
+    singleTimeline02:
+      "Building frontend interface of companies management system and Wordpress websites using custom templates",
   },
 
   italian: {
@@ -84,8 +88,7 @@ export const data = {
       "Vuoi lavorare con me ho hai qualche domanda ? Non vedo l'ora di adscoltarti.",
     touchBtn: "CONTATTAMI",
     singleAboutTitle: "su di me",
-    singleAboutText1:
-      "Sviluppatore Front End e Dottore in Marketing e Comunicazione d'Impresa con sei anni di esperienza lavorativa in un'azienda ICT e due anni di esperienza nella programmazione informatica. Ho conseguito la  laurea in Marketing e Comunicazione presso l'Università degli Studi di Bari (Facoltà di Economia Commerce) e ho atteso oltre 1000 ore di corsi bootcamp sulla codifica al fine di apprendere nuovi linguaggi di markup e di programmazione affinando al contempo le competenze esistenti. Ho iniziato la mia carriera in una azienda ICT come assistente informatico di prima linea per poi proseguire come assistente informatico di seconda linea e product support engineer fino a diventare IT team manager. Al momento lavoro come sviluppatore front end e mi piacerebbe mettere in pratica la mia conoscenza e la mia passione per l’IT e per il coding in un team di esperti programmatori.Ho una passione per l’informatica, per lo sviluppo web  e per la crescita professionale. ",
+    singleAboutText1: `Sviluppatore Front End e Dottore in Marketing e Comunicazione d'Impresa con sei anni di esperienza lavorativa in un'azienda ICT e due anni di esperienza nella programmazione informatica. <br> Ho conseguito la  laurea in Marketing e Comunicazione presso l'Università degli Studi di Bari (Facoltà di Economia Commerce) e ho atteso oltre 1000 ore di corsi bootcamp sulla codifica al fine di apprendere nuovi linguaggi di markup e di programmazione affinando al contempo le competenze esistenti. Ho iniziato la mia carriera in una azienda ICT come assistente informatico di prima linea per poi proseguire come assistente informatico di seconda linea e product support engineer fino a diventare IT team manager. <br> Al momento lavoro come sviluppatore front end e mi piacerebbe mettere in pratica la mia conoscenza e la mia passione per l’IT e per il coding in un team di esperti programmatori.Ho una passione per l’informatica, per lo sviluppo web  e per la crescita professionale. `,
     singleAboutText2:
       "Qui di seguito potete trovare e scaricare il mio curriculum.",
     singleContactTitle: "contatti",
@@ -100,6 +103,14 @@ export const data = {
       "Analizzare e risolvere le richieste, i problemi e le preoccupazioni dei clienti, diagnosticarne la causa principale e documentarne le interazioni",
     singleTimeline5:
       "Fornire supporto IT a clienti situati in diverse località del mondo",
+    singleTimeline01:
+      "Creare, costruire e mantenere full responsive web app o websites. Più informazioni sulle tecnologie utilizzate per la costruzione dei siti su cui ho lavorato sono disponibili nella mia",
+    singleTimeline02:
+      "Creare, costruire e mantenere full responsive web app o websites. Più informazioni sulle tecnologie utilizzate per la costruzione dei siti su cui ho lavorato sono disponibili nella mia",
+    singleTimeline02:
+      "Building frontend interface of companies management system and Wordpress websites using custom templates",
+    singleTimeline02:
+      "Costruire l'interfaccia grafica dei sistemi gestionali delle imprese e sviluppare siti su Wordpress utilizzando templates customatizzati",
   },
   // japanese: {
   //   title: "ハロー・ワールド",

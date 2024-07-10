@@ -4,6 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="FranekDev Portfolio Website" />
+    <meta
+      property="og:description"
+      content="A frontend developer portfolio page."
+    />
+    <meta
+      property="og:image"
+      content="https://franekdev-portfolio.netlify.app/images/green4.png"
+    />
+    <meta
+      property="og:url"
+      content="https://franekdev-portfolio.netlify.app/"
+    />
+    <meta property="og:type" content="website" />
 
     <link rel="stylesheet" href="style.css" />
     <link
@@ -35,14 +49,15 @@
     <nav class="nav" id="nav">
       <div class="nav-center">
         <div class="nav-header">
-          <div class="nav-logo">
+          <a href="/index.html" class="nav-logo">
             <!-- <img src="./images/navLogo2.png" alt="" style="width: 8rem;"> -->
             <h2>
               franek<span class="temporary"
                 ><span class="capitalize">d</span>ev</span
               >
             </h2>
-          </div>
+          </a>
+
           <ul class="nav-links">
             <li class="nav-link">
               <a class="navHome" href="./index.html">home</a>
@@ -137,7 +152,7 @@
           href="./Francesco Leccese Curriculum Vitae (Jul).pdf"
           class="page-about-text cv-container"
         >
-          <span>Francesco Leccese CV (ENG)</span>
+          <div style="align-content: center">Francesco Leccese CV (ENG)</div>
           <div class="download-area">
             <span>684 KB</span>
             <i class="fa-solid fa-file-pdf"></i>
@@ -147,7 +162,7 @@
           href="./Francesco Leccese Curriculum Vitae (Dec-ITA).pdf"
           class="page-about-text cv-container"
         >
-          <span>Francesco Leccese CV (ITA)</span>
+          <div style="align-content: center">Francesco Leccese CV (ITA)</div>
           <div class="download-area">
             <span>684 KB</span>
             <i class="fa-solid fa-file-pdf"></i>

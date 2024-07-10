@@ -60,6 +60,8 @@ const singleTimeline2 = document.querySelector(".singleTimeline2");
 const singleTimeline3 = document.querySelector(".singleTimeline3");
 const singleTimeline4 = document.querySelector(".singleTimeline4");
 const singleTimeline5 = document.querySelector(".singleTimeline5");
+const singleTimeline01 = document.querySelector(".singleTimeline01");
+const singleTimeline02 = document.querySelector(".singleTimeline02");
 
 const translate = (attr) => {
   if (titleEl) {
@@ -138,7 +140,7 @@ const translate = (attr) => {
     singleAboutTitle.textContent = data[attr].singleAboutTitle;
   }
   if (singleAboutText1) {
-    singleAboutText1.textContent = data[attr].singleAboutText1;
+    singleAboutText1.innerHTML = data[attr].singleAboutText1;
   }
   if (singleAboutText2) {
     singleAboutText2.textContent = data[attr].singleAboutText2;
@@ -156,10 +158,10 @@ const translate = (attr) => {
     singleProjectsTitle.textContent = data[attr].singleProjectsTitle;
   }
   if (
-    singleTimeline1 ||
-    singleTimeline2 ||
-    singleTimeline3 ||
-    singleTimeline4 ||
+    singleTimeline1 &&
+    singleTimeline2 &&
+    singleTimeline3 &&
+    singleTimeline4 &&
     singleTimeline5
   ) {
     singleTimeline1.forEach((i) => {
@@ -168,6 +170,12 @@ const translate = (attr) => {
     singleTimeline3.textContent = data[attr].singleTimeline3;
     singleTimeline4.textContent = data[attr].singleTimeline4;
     singleTimeline5.textContent = data[attr].singleTimeline5;
+  }
+  if (singleTimeline01) {
+    singleTimeline01.textContent = data[attr].singleTimeline01;
+  }
+  if (singleTimeline02) {
+    singleTimeline02.textContent = data[attr].singleTimeline02;
   }
 };
 window.addEventListener("DOMContentLoaded", () => {
@@ -179,6 +187,7 @@ window.addEventListener("DOMContentLoaded", () => {
     console.log(langEl.querySelector(".active"));
     langEl.querySelector(".active").classList.remove("active");
     console.log("test2", langEl.querySelector('[language="' + test + '"]'));
+    console.log("questo", langEl.querySelector('[language="' + test + '"]'));
     langEl.querySelector('[language="' + test + '"]').classList.add("active");
   }
 
