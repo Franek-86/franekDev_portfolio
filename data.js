@@ -42,6 +42,13 @@ export const data = {
       "   If you are looking to get ahold of me, you can send me an email at",
     singleContactText2: ". You can also reach me on Linkedin at",
     singleProjectsTitle: "my projects",
+    singleTimeline1: "at",
+    singleTimeline3:
+      "Responsible for overseeing the day-to-day activities of service-desk operations to ensure users and business teams receive the support they require",
+    singleTimeline4:
+      "Analyze and resolve customer concerns and problems, diagnose the root cause, and document interactions. Provide on-call and ongoing second line troubleshooting, technical, and hardware advice and suggestions. Support remote and local upgrades, installations, and maintenance.",
+    singleTimeline5:
+      "Providing first line IT support to users located worldwide and handling company’s high severity impact incidents.",
   },
 
   italian: {
@@ -86,6 +93,13 @@ export const data = {
       "Se vuoi contattarmi contattarmi, puoi inviarmi un'e-mail a",
     singleContactText2: ". Puoi anche raggiungermi su Linkedin all'indirizzo",
     singleProjectsTitle: "i miei progetti",
+    singleTimeline1: "presso",
+    singleTimeline3:
+      "Responsabile della supervisione delle attività quotidiane delle operazioni del service desk per garantire che gi clienti e i team aziendali ricevano il supporto necessario",
+    singleTimeline4:
+      "Analizzare e risolvere le richieste, i problemi e le preoccupazioni dei clienti, diagnosticarne la causa principale e documentarne le interazioni",
+    singleTimeline5:
+      "Fornire supporto IT a clienti situati in diverse località del mondo",
   },
   // japanese: {
   //   title: "ハロー・ワールド",

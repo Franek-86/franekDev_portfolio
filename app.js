@@ -55,6 +55,11 @@ const singleContactTitle = document.querySelector(".singleContactTitle");
 const singleContactText1 = document.querySelector(".singleContactText1");
 const singleContactText2 = document.querySelector(".singleContactText2");
 const singleProjectsTitle = document.querySelector(".singleProjectsTitle");
+const singleTimeline1 = document.querySelectorAll(".singleTimeline1");
+const singleTimeline2 = document.querySelector(".singleTimeline2");
+const singleTimeline3 = document.querySelector(".singleTimeline3");
+const singleTimeline4 = document.querySelector(".singleTimeline4");
+const singleTimeline5 = document.querySelector(".singleTimeline5");
 
 const translate = (attr) => {
   if (titleEl) {
@@ -149,6 +154,20 @@ const translate = (attr) => {
   }
   if (singleProjectsTitle) {
     singleProjectsTitle.textContent = data[attr].singleProjectsTitle;
+  }
+  if (
+    singleTimeline1 ||
+    singleTimeline2 ||
+    singleTimeline3 ||
+    singleTimeline4 ||
+    singleTimeline5
+  ) {
+    singleTimeline1.forEach((i) => {
+      i.textContent = data[attr].singleTimeline1;
+    });
+    singleTimeline3.textContent = data[attr].singleTimeline3;
+    singleTimeline4.textContent = data[attr].singleTimeline4;
+    singleTimeline5.textContent = data[attr].singleTimeline5;
   }
 };
 window.addEventListener("DOMContentLoaded", () => {
