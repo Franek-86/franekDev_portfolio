@@ -62,6 +62,25 @@ const singleTimeline4 = document.querySelector(".singleTimeline4");
 const singleTimeline5 = document.querySelector(".singleTimeline5");
 const singleTimeline01 = document.querySelector(".singleTimeline01");
 const singleTimeline02 = document.querySelector(".singleTimeline02");
+const p_bluesTarot = document.querySelector(".p_bluesTarot");
+const p_roadToSaintNicholas = document.querySelector(".p_roadToSaintNicholas");
+const p_tecnocupolePancaldi = document.querySelector(".p_tecnocupolePancaldi");
+const p_studiDentisticiMaffei = document.querySelector(
+  ".p_studiDentisticiMaffei"
+);
+const p_ernestVerner = document.querySelector(".p_ernestVerner");
+const p_jumboClubs = document.querySelector(".p_jumboClubs");
+const p_theCoffeeBlend = document.querySelector(".p_theCoffeeBlend");
+const p_comfySlot = document.querySelector(".p_comfySlot");
+const p_cocktailsSet = document.querySelector(".p_cocktailsSet");
+const p_jumboColombiaTea = document.querySelector(".p_jumboColombiaTea");
+const p_technicalDocumentTemplate = document.querySelector(
+  ".p_technicalDocumentTemplate"
+);
+const p_jobTracker = document.querySelector(".p_jobTracker");
+const p_githubUsers = document.querySelector(".p_githubUsers");
+const p_winMe = document.querySelector(".p_winMe");
+const p_cocktailsTable = document.querySelector(".p_cocktailsTable");
 
 const translate = (attr) => {
   if (titleEl) {
@@ -176,6 +195,57 @@ const translate = (attr) => {
   }
   if (singleTimeline02) {
     singleTimeline02.textContent = data[attr].singleTimeline02;
+  }
+  // projects page
+
+  if (p_bluesTarot) {
+    p_bluesTarot.innerHTML = data[attr].p_bluesTarot;
+  }
+  if (p_roadToSaintNicholas) {
+    p_roadToSaintNicholas.innerHTML = data[attr].p_roadToSaintNicholas;
+  }
+  if (p_tecnocupolePancaldi) {
+    p_tecnocupolePancaldi.innerHTML = data[attr].p_tecnocupolePancaldi;
+  }
+  if (p_studiDentisticiMaffei) {
+    p_studiDentisticiMaffei.innerHTML = data[attr].p_studiDentisticiMaffei;
+  }
+  if (p_ernestVerner) {
+    p_ernestVerner.innerHTML = data[attr].p_ernestVerner;
+  }
+  if (p_tecnocupolePancaldi) {
+    p_tecnocupolePancaldi.innerHTML = data[attr].p_tecnocupolePancaldi;
+  }
+  if (p_jumboClubs) {
+    p_jumboClubs.innerHTML = data[attr].p_jumboClubs;
+  }
+  if (p_theCoffeeBlend) {
+    p_theCoffeeBlend.innerHTML = data[attr].p_theCoffeeBlend;
+  }
+  if (p_comfySlot) {
+    p_comfySlot.innerHTML = data[attr].p_comfySlot;
+  }
+  if (p_cocktailsSet) {
+    p_cocktailsSet.innerHTML = data[attr].p_cocktailsSet;
+  }
+  if (p_jumboColombiaTea) {
+    p_jumboColombiaTea.innerHTML = data[attr].p_jumboColombiaTea;
+  }
+  if (p_technicalDocumentTemplate) {
+    p_technicalDocumentTemplate.innerHTML =
+      data[attr].p_technicalDocumentTemplate;
+  }
+  if (p_jobTracker) {
+    p_jobTracker.innerHTML = data[attr].p_jobTracker;
+  }
+  if (p_githubUsers) {
+    p_githubUsers.innerHTML = data[attr].p_githubUsers;
+  }
+  if (p_winMe) {
+    p_winMe.innerHTML = data[attr].p_winMe;
+  }
+  if (p_cocktailsTable) {
+    p_cocktailsTable.innerHTML = data[attr].p_cocktailsTable;
   }
 };
 window.addEventListener("DOMContentLoaded", () => {

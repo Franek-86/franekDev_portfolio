@@ -53,6 +53,33 @@ export const data = {
       "Build, create and maintain full responsive web app or websites. More information about the technologies used for building each of the websites are available in my",
     singleTimeline02:
       "Building frontend interface of companies management system and Wordpress websites using custom templates",
+    p_bluesTarot:
+      "A project built with the purpose of promoting the photographic exhibition <i>Blue Tarot</i> of the Italian photographer <i>Maria Martinelli</i>. It is a two pages website, first page is providing information of the exhibition, second page is a multimedia photo gallery.",
+    p_roadToSaintNicholas:
+      "A virtual trip on the <i>road to Saint Nicholas</i>. An app made for those tourists who are visiting or planning to visit the city of Bari. A virtual bus trip that goes from the airport of Bari until the saint Nicholas Stadium.",
+    p_tecnocupolePancaldi:
+      "Project built from start to end during my work experience in Developing.it. <i>Tecnocupole Pancaldi</i> website has been built using Wordpress, creating a custom template and utilizing the most advanced <i>Wordpress</i> features.",
+    p_studiDentisticiMaffei:
+      "Project built from start to end during my work experience in Developing.it. <i>Studi Dentistici Maffei</i> website has been built with <i>Wordpress</i> and by using <i>Elementor</i> page builder.",
+    p_ernestVerner:
+      "I'm responsible for maintaining and updating the <i>Ernest Verner</i> website. This website has been built with <i>Wordpress</i> and as of today I made some maintenance work, added a Gallery page, language translation plug-in and I am currently working on the payment plug-in functionality.",
+    p_jumboClubs: `Explore the <i>Jumbo Clubs</i> events taking place in some of the top cities of the world! A project part of my <i>"Jumbo series"</i> which includes also "Coffee Blend" and "Jumbo colombian Tea". The <i>"Jumbo series"</i> has been conceived for academic purposes therefore is presenting products of fantasy.`,
+    p_theCoffeeBlend: `A project part of my <i>"Jumbo series"</i> which includes also "Jumbo Clubs" and "Jumbo colombian Tea". The <i>"Jumbo series"</i> has been conceived for academic purposes therefore is presenting products of fantasy. Choose your favorite coffee blend!`,
+    p_comfySlot:
+      "<i>Comfy Slot</i> is a web app built with the <i>React</i> framework which allows you (among several other options) to log in, choose among a database of products adding them to a cart and eventually simulating a purchase trough card payment. The <i>Comfy Slot</i> project as well as the <i>Job Tracker</i>, <i>Github Users</i> and <i>Cocktails Set</i> project are academic works created during my <i>web developer</i> courses.",
+    p_cocktailsSet:
+      "<i>Cocktails Set</i> is a web app built with the <i>React</i> framework which allows you to search for a specific cocktail and see it's specifics. The <i>Cocktails Set</i> project as well as the <i>Job Tracker</i>, <i>Github Users</i> and <i>Comfy Slot</i> project are academic works created during my <i>web developer</i> courses.",
+    p_jumboColombiaTea: `What's your favorite cup of tea? This project is part of my <i>"Jumbo series"</i> which includes also "Jumbo Clubs" and "Jumbo Coffee Blend". The <i>"Jumbo series"</i> has been conceived for academic purposes therefore is presenting products of fantasy.`,
+    p_technicalDocumentTemplate:
+      "A full responsive webpage template created for showing technical instructions.",
+    p_jobTracker:
+      "<i>Job Tracker</i> is a web app built with the <i>React</i> framework which allows you (among several other options) to keep trace of your scheduled interviews, pending applications as well as jobs declined.. The <i>Job Tracker</i> project as well as the <i>Comfy Slot</i>, <i>Github Users</i> and <i>Cocktails Set</i> project are academic works created during my <i>web developer</i> courses.",
+    p_githubUsers:
+      "<i>Github Users</i> is a web app built with the <i>React</i> framework which allows you, after logging in, to search for a github user and see some of his statistics (eg. Repos, Followers exc). The <i>Github Users</i> project as well as the <i>Comfy Slot</i>, <i>Job Tracker</i> and <i>Cocktails Set</i> project are academic works created during my <i>web developer</i> courses.",
+    p_winMe:
+      "A project built with the purpose of creating a <i>form</i> template made of all possible types of form inputs. Help out improving the <i>WineMe</i> service by filling out the <i>WineMe</i> survey form.",
+    p_cocktailsTable:
+      "A project built with the purpose of creating a table of cocktails and a page illustrating details of ech one of them.",
   },
 
   italian: {
@@ -111,6 +138,33 @@ export const data = {
       "Building frontend interface of companies management system and Wordpress websites using custom templates",
     singleTimeline02:
       "Costruire l'interfaccia grafica dei sistemi gestionali delle imprese e sviluppare siti su Wordpress utilizzando templates customatizzati",
+    p_bluesTarot:
+      "Un progetto nato con lo scopo di promuovere la mostra fotografica <i>Blue Tarot</i> della fotografa italiana <i>Maria Martinelli</i>. È un sito di due pagine, la prima pagina fornisce le informazioni sulla mostra , la seconda pagina è una galleria fotografica multimediale.",
+    p_roadToSaintNicholas:
+      "Un viaggio virtuale sulla <i>strada verso San Nicola</i>. Un'app pensata per i turisti che stanno visitando o intendono visitare la città di Bari. Un viaggio virtuale in autobus che va dall'aeroporto di Bari fino al Santo Stadio Nicola.",
+    p_tecnocupolePancaldi:
+      "Progetto realizzato dall'inizio alla fine durante la mia esperienza lavorativa in Developing.it. Il sito web <i>Tecnocupole Pancaldi</i> è stato realizzato utilizzando Wordpress, creando un template personalizzato e utilizzando le funzionalità <i>Wordpress</i> più avanzate .",
+    p_studiDentisticiMaffei:
+      "Progetto realizzato dall'inizio alla fine durante la mia esperienza lavorativa in Developing.it. Il sito web di <i>Studi Dentistici Maffei</i> è stato realizzato con <i>Wordpress</i> e utilizzando <i>Elementor</i> generatore di pagine.",
+    p_ernestVerner:
+      "Sono responsabile della manutenzione e dell'aggiornamento del sito web <i>Ernest Verner</i>. Questo sito web è stato realizzato con <i>Wordpress</i> e ad oggi ho effettuato alcuni lavori di manutenzione, aggiunto una pagina Galleria, plug-in di traduzione linguistica e attualmente sto lavorando alla funzionalità del plug-in di pagamento.",
+    p_jumboClubs: `Esplora gli eventi <i>Jumbo Club</i> che si svolgono in alcune delle migliori città del mondo! Un progetto parte della mia <i>"serie Jumbo"</i> che comprende anche "Miscela di caffè" e "Tè colombiano Jumbo". La <i>"serie Jumbo"</i> è stata concepita per scopi accademici quindi presenta prodotti di fantasia.`,
+    p_theCoffeeBlend: `Un progetto parte della mia <i>"serie Jumbo"</i> che comprende anche "Jumbo Clubs" e "Jumbo colombian Tea". La <i>"serie Jumbo"</i> è stata concepita per scopi accademici quindi presenta prodotti di fantasia. Scegli la tua miscela di caffè preferita!`,
+    p_comfySlot:
+      "<i>Comfy Slot</i> è un'app web costruita con il framework <i>React</i> che ti consente (tra molte altre opzioni) di accedere, scegliere tra un database di prodotti aggiungendoli a un carrello ed eventualmente simulando un acquisto tramite pagamento con carta Il progetto <i>Comfy Slot</i> nonché <i>Job Tracker</i>, <i>Github Users</i> e <i>Cocktails Set</i> sono lavori accademici creati durante i miei corsi di <i>sviluppatore web</i>.",
+    p_cocktailsSet:
+      "<i>Cocktails Set</i> è un'app Web creata con il framework <i>React</i> che ti consente di cercare un cocktail specifico e vederne le specifiche. Il <i>Cocktails Set</i> così come il progetto <i>Job Tracker</i>, <i>Github Users</i> e <i>Comfy Slot</i> sono lavori accademici creati durante il mio lavoro di <i>sviluppatore web</i> corsi.",
+    p_jumboColombiaTea: `Qual è la tua tazza di tè preferita?" Questo progetto fa parte della mia <i>"serie Jumbo"</i> che comprende anche "Jumbo Clubs" e "Jumbo Coffee Blend". La <i>"serie Jumbo"</i> è stata concepita per scopi accademici quindi presenta prodotti di fantasia.`,
+    p_technicalDocumentTemplate:
+      "Un modello di pagina web completamente reattivo creato per mostrare istruzioni tecniche.",
+    p_jobTracker:
+      "<i>Job Tracker</i> è un'app web creata con il framework <i>React</i> che ti consente (tra molte altre opzioni) di tenere traccia dei colloqui programmati, delle candidature in sospeso e dei lavori rifiutati .. Il progetto <i>Job Tracker</i> così come il progetto <i>Comfy Slot</i>, <i>Github Users</i> e <i>Cocktails Set</i> sono lavori accademici creato durante i miei corsi di <i>sviluppatore web</i>.",
+    p_githubUsers:
+      "<i>Github Users</i> è un'app web realizzata con il framework <i>React</i> che ti consente, dopo aver effettuato l'accesso, di cercare un utente github e vedere alcune delle sue statistiche (es. Repos , Followers ecc.). Il progetto <i>Github Users</i> così come il progetto <i>Comfy Slot</i>, <i>Job Tracker</i> e <i>Cocktails Set</i> sono lavori accademici creati durante i miei corsi di <i>sviluppatore web</i>.",
+    p_winMe:
+      "Un progetto nato con lo scopo di creare un modello di <i>form</i> composto da tutti i possibili tipi di input del modulo. Aiutaci a migliorare il servizio <i>WineMe</i> compilando il <i>WineMe</i> modulo di sondaggio.",
+    p_cocktailsTable:
+      "Un progetto nato con lo scopo di creare un tavolo di cocktail e una pagina che illustri i dettagli di ciascuno di essi.",
   },
   // japanese: {
   //   title: "ハロー・ワールド",
