@@ -27,6 +27,7 @@ const link = document.querySelectorAll("a");
 const titleEl = document.querySelector(".bannerTitle");
 const descrEl = document.querySelector(".bannerDescription");
 const aboutTitle = document.querySelector(".aboutTitle");
+const servicesTitle = document.querySelector(".servicesTitle");
 const aboutDescription1 = document.querySelector(".aboutDescription1");
 const aboutDescription2 = document.querySelector(".aboutDescription2");
 const webDevelopmentText = document.querySelector(".webDevelopmentText");
@@ -46,7 +47,7 @@ const sidebarHome = document.querySelector(".sidebarHome");
 const sidebarAbout = document.querySelector(".sidebarAbout");
 const sidebarContact = document.querySelector(".sidebarContact");
 const sidebarProjects = document.querySelector(".sidebarProjects");
-const projectPage = document.querySelector(".projectPage");
+const projectPage = document.querySelectorAll(".projectPage");
 const aboutMeBtn = document.querySelector(".aboutMeBtn");
 const singleAboutTitle = document.querySelector(".singleAboutTitle");
 const singleAboutText1 = document.querySelector(".singleAboutText1");
@@ -91,6 +92,9 @@ const translate = (attr) => {
   }
   if (aboutTitle) {
     aboutTitle.textContent = data[attr].aboutTitle;
+  }
+  if (servicesTitle) {
+    servicesTitle.textContent = data[attr].servicesTitle;
   }
   if (aboutDescription1) {
     aboutDescription1.textContent = data[attr].aboutDescription1;
@@ -153,7 +157,9 @@ const translate = (attr) => {
     aboutMeBtn.textContent = data[attr].aboutMeBtn;
   }
   if (projectPage) {
-    projectPage.textContent = data[attr].projectPage;
+    projectPage.forEach((i) => {
+      i.textContent = data[attr].projectPage;
+    });
   }
   if (singleAboutTitle) {
     singleAboutTitle.textContent = data[attr].singleAboutTitle;

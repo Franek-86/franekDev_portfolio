@@ -12,6 +12,7 @@ export const data = {
     bannerDescription: "Freelance Web Developer",
     bannerBtn: "HIRE ME",
     aboutTitle: "About",
+    servicesTitle: "Services",
     aboutDescription1:
       "Ciao a tutti! Mi chiamo Francesco Leccese ma potete chiamarmi Franek. Sono uno sviluppatore front-end con studi in Marketing e Comunicazione d'impresa, sei anni di esperienza nella fornitura di servizi IT per le imprese e due anni di esperienza nello sviluppo web.",
     aboutDescription1:
@@ -95,6 +96,7 @@ export const data = {
     bannerDescription: "Freelance Web Developer",
     bannerBtn: "LAVORIAMO INSIEME",
     aboutTitle: "su di me",
+    servicesTitle: "Servizi",
     aboutDescription1:
       "Ciao a tutti! Mi chiamo Francesco Leccese ma potete chiamarmi Franek. Sono uno sviluppatore front-end con studi in marketing e comunicazione d'impresa, sei anni di esperienza nella fornitura di servizi IT per le imprese e due anni di esperienza nello sviluppo web.",
     aboutDescription2:
@@ -141,13 +143,13 @@ export const data = {
     p_bluesTarot:
       "Un progetto nato con lo scopo di promuovere la mostra fotografica <i>Blue Tarot</i> della fotografa italiana <i>Maria Martinelli</i>. È un sito di due pagine, la prima pagina fornisce le informazioni sulla mostra , la seconda pagina è una galleria fotografica multimediale.",
     p_roadToSaintNicholas:
-      "Un viaggio virtuale sulla <i>strada verso San Nicola</i>. Un'app pensata per i turisti che stanno visitando o intendono visitare la città di Bari. Un viaggio virtuale in autobus che va dall'aeroporto di Bari fino al Santo Stadio Nicola.",
+      "Un viaggio virtuale sulla <i>strada verso San Nicola</i>. Un'app pensata per i turisti che stanno visitando o intendono visitare la città di Bari. Un viaggio virtuale in autobus che va dall'aeroporto di Bari fino allo stadio San Nicola.",
     p_tecnocupolePancaldi:
-      "Progetto realizzato dall'inizio alla fine durante la mia esperienza lavorativa in Developing.it. Il sito web <i>Tecnocupole Pancaldi</i> è stato realizzato utilizzando Wordpress, creando un template personalizzato e utilizzando le funzionalità <i>Wordpress</i> più avanzate .",
+      "Progetto realizzato dall'inizio fino alla fase di pre produzione durante la mia esperienza lavorativa in Developing.it. Il sito web <i>Tecnocupole Pancaldi</i> è stato da me interamente realizzato utilizzando Wordpress, creando un template personalizzato e utilizzando le funzionalità <i>Wordpress</i> più avanzate.",
     p_studiDentisticiMaffei:
-      "Progetto realizzato dall'inizio alla fine durante la mia esperienza lavorativa in Developing.it. Il sito web di <i>Studi Dentistici Maffei</i> è stato realizzato con <i>Wordpress</i> e utilizzando <i>Elementor</i> generatore di pagine.",
+      "Progetto realizzato dall'inizio fino alla fase di pre produzione durante la mia esperienza lavorativa in Developing.it. Il sito web di <i>Studi Dentistici Maffei</i> è stato da me realizzato con <i>Wordpress</i> e utilizzando <i>Elementor</i>.",
     p_ernestVerner:
-      "Sono responsabile della manutenzione e dell'aggiornamento del sito web <i>Ernest Verner</i>. Questo sito web è stato realizzato con <i>Wordpress</i> e ad oggi ho effettuato alcuni lavori di manutenzione, aggiunto una pagina Galleria, plug-in di traduzione linguistica e attualmente sto lavorando alla funzionalità del plug-in di pagamento.",
+      "Sono responsabile della manutenzione e dell'aggiornamento del sito web <i>Ernest Verner</i>. Questo sito web è stato realizzato con <i>Wordpress</i> e ad oggi ho effettuato alcuni lavori di manutenzione, aggiunto una pagina Galleria, un plug-in di traduzione linguistica e attualmente sto lavorando alla funzionalità del plug-in di pagamento.",
     p_jumboClubs: `Esplora gli eventi <i>Jumbo Club</i> che si svolgono in alcune delle migliori città del mondo! Un progetto parte della mia <i>"serie Jumbo"</i> che comprende anche "Miscela di caffè" e "Tè colombiano Jumbo". La <i>"serie Jumbo"</i> è stata concepita per scopi accademici quindi presenta prodotti di fantasia.`,
     p_theCoffeeBlend: `Un progetto parte della mia <i>"serie Jumbo"</i> che comprende anche "Jumbo Clubs" e "Jumbo colombian Tea". La <i>"serie Jumbo"</i> è stata concepita per scopi accademici quindi presenta prodotti di fantasia. Scegli la tua miscela di caffè preferita!`,
     p_comfySlot:
