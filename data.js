@@ -62,8 +62,6 @@ export const data = {
       "Project built from start to end during my work experience in Developing.it. <i>Tecnocupole Pancaldi</i> website has been built using Wordpress, creating a custom template and utilizing the most advanced <i>Wordpress</i> features.",
     p_studiDentisticiMaffei:
       "Project built from start to end during my work experience in Developing.it. <i>Studi Dentistici Maffei</i> website has been built with <i>Wordpress</i> and by using <i>Elementor</i> page builder.",
-    p_ernestVerner:
-      "I'm responsible for maintaining and updating the <i>Ernest Verner</i> website. This website has been built with <i>Wordpress</i> and as of today I made some maintenance work, added a Gallery page, language translation plug-in and I am currently working on the payment plug-in functionality.",
     p_jumboClubs: `Explore the <i>Jumbo Clubs</i> events taking place in some of the top cities of the world! A project part of my <i>"Jumbo series"</i> which includes also "Coffee Blend" and "Jumbo colombian Tea". The <i>"Jumbo series"</i> has been conceived for academic purposes therefore is presenting products of fantasy.`,
     p_theCoffeeBlend: `A project part of my <i>"Jumbo series"</i> which includes also "Jumbo Clubs" and "Jumbo colombian Tea". The <i>"Jumbo series"</i> has been conceived for academic purposes therefore is presenting products of fantasy. Choose your favorite coffee blend!`,
     p_comfySlot:
@@ -148,8 +146,6 @@ export const data = {
       "Progetto realizzato dall'inizio fino alla fase di pre produzione durante la mia esperienza lavorativa in Developing.it. Il sito web <i>Tecnocupole Pancaldi</i> è stato da me interamente realizzato utilizzando Wordpress, creando un template personalizzato e utilizzando le funzionalità <i>Wordpress</i> più avanzate.",
     p_studiDentisticiMaffei:
       "Progetto realizzato dall'inizio fino alla fase di pre produzione durante la mia esperienza lavorativa in Developing.it. Il sito web di <i>Studi Dentistici Maffei</i> è stato da me realizzato con <i>Wordpress</i> e utilizzando <i>Elementor</i>.",
-    p_ernestVerner:
-      "Sono responsabile della manutenzione e dell'aggiornamento del sito web <i>Ernest Verner</i>. Questo sito web è stato realizzato con <i>Wordpress</i> e ad oggi ho effettuato alcuni lavori di manutenzione, aggiunto una pagina Galleria, un plug-in di traduzione linguistica e attualmente sto lavorando alla funzionalità del plug-in di pagamento.",
     p_jumboClubs: `Esplora gli eventi <i>Jumbo Club</i> che si svolgono in alcune delle migliori città del mondo! Un progetto parte della mia <i>"serie Jumbo"</i> che comprende anche "Miscela di caffè" e "Tè colombiano Jumbo". La <i>"serie Jumbo"</i> è stata concepita per scopi accademici quindi presenta prodotti di fantasia.`,
     p_theCoffeeBlend: `Un progetto parte della mia <i>"serie Jumbo"</i> che comprende anche "Jumbo Clubs" e "Jumbo colombian Tea". La <i>"serie Jumbo"</i> è stata concepita per scopi accademici quindi presenta prodotti di fantasia. Scegli la tua miscela di caffè preferita!`,
     p_comfySlot:
